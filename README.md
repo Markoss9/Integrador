@@ -30,19 +30,19 @@ rescue_simulator/
 └── README.md
 
 
-📌 **Consejo:**  
+**Consejo:**  
 Usen un archivo `.gitignore` para evitar subir archivos temporales o de entorno (`__pycache__/`, `.env`, etc.).
 
 ---
 
-## 🧠 2. Clases Base y Diseño del Sistema
+## Clases Base y Diseño del Sistema
 
 Definan las clases principales que luego se expandirán en las siguientes fases.  
 Pueden hacerlo en pseudocódigo o Python básico con métodos vacíos (*placeholders*).
 
 ---
 
-### 🔹 Clase `Map` (en `map_manager.py`)
+### Clase `Map` (en `map_manager.py`)
 
 **Atributos:**
 - `width`, `height`
@@ -55,7 +55,7 @@ Pueden hacerlo en pseudocódigo o Python básico con métodos vacíos (*placehol
 
 ---
 
-### 🔹 Clase `Mine`
+### Clase `Mine`
 
 **Atributos:**
 - `type` (O1, O2, T1, T2, G1)
@@ -68,7 +68,7 @@ Pueden hacerlo en pseudocódigo o Python básico con métodos vacíos (*placehol
 
 ---
 
-### 🔹 Clase `Resource`
+### Clase `Resource`
 
 **Atributos:**
 - `type` (persona, ropa, alimentos, medicamentos, armamentos)
@@ -77,7 +77,7 @@ Pueden hacerlo en pseudocódigo o Python básico con métodos vacíos (*placehol
 
 ---
 
-### 🔹 Clase `Vehicle` (en `aircraft.py`)
+### Clase `Vehicle` (en `aircraft.py`)
 
 **Atributos comunes:**
 - `id`
@@ -96,7 +96,7 @@ Luego se podrán crear subclases (`Jeep`, `Moto`, etc.) que hereden de `Vehicle`
 
 ---
 
-### 🔹 Clase `Player`
+### Clase `Player`
 
 **Atributos:**
 - `name`
@@ -110,13 +110,13 @@ Luego se podrán crear subclases (`Jeep`, `Moto`, etc.) que hereden de `Vehicle`
 
 ---
 
-### 🔹 Clase `GameEngine` (en `game_engine.py`, aún vacía)
+### Clase `GameEngine` (en `game_engine.py`, aún vacía)
 
 Controlará el flujo principal del juego (inicialización, turnos, simulación).
 
 ---
 
-## 🧾 3. Archivo Principal `rescue_simulator.py`
+## Archivo Principal `rescue_simulator.py`
 
 Debe contener el punto de entrada del programa, algo como:
 
